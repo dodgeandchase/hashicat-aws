@@ -1,9 +1,9 @@
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
-  bucket = "aws_s3_bucket"
+  bucket = "edmante"
   acl    = "private"
-  bucket_prefix = "aws_s3_bucket"
+  bucket_prefix = "edmante"
 
   versioning = {
     enabled = true
