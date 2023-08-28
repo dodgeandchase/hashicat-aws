@@ -3,7 +3,7 @@ module "s3_bucket" {
 
   bucket = "my-s3-bucket"
   acl    = "private"
-  bucket_prefix = "edmante"
+  bucket_prefix = "edmante_bucket"
 
   versioning = {
     enabled = true
